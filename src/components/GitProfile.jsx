@@ -208,6 +208,11 @@ const GitProfile = ({ config }) => {
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
+                      <TechnoWatch 
+                        loading={loading}
+                        technoWatchedContent={sanitizedConfig.technoWatchedContent}  
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                      />
                       <Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
